@@ -1,0 +1,68 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.navbar {
+  width: 100%;
+  background-color: #364a5a;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #506D84;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+h2{
+   color: #C99F3C; 
+   font-family: 'Open Sans', sans-serif;
+}
+p{
+    color:#777777;
+    font-family: 'Open Sans', sans-serif;
+}
+#vizyon_misyon,#bize_ulasin,#urunler,.contact{
+  position:relative;
+  left: 500px;
+  top: 10px;
+}
+#home_image{
+  position: relative;
+  left: 800px;
+  height: 300px;
+}
+.anasayfa{
+background-color: rgba(0, 0, 0, 0); 
+background-repeat: no-repeat; 
+background-size: cover; 
+background-position: center bottom; 
+width: 100%;
+height: 100%; 
+opacity: 0; 
+visibility: inherit;
+}
+.contact{
+font-family: 'Open Sans', sans-serif;
+}
+.area{
+  font-family: 'Poppins',Arial,sans-serif;
+  color:#777777;
+  position:relative;
+  /* left: 500px; */
+  top: 10px;
+}
